@@ -25,6 +25,7 @@ This project implements and compares two of the most influential architectures f
 The foundational encoder-decoder architecture. It introduces "skip connections" that merge deep, semantic feature maps from the encoder with shallow, high-resolution feature maps in the decoder, enabling precise localization.
 
 <!-- *(Bạn hãy thêm ảnh sơ đồ U-Net chuẩn vào `assets/unet_architecture.png`)* -->
+
 ![U-Net Architecture](assets/unet_architecture.png)
 
 ### 2. UNet++ (Nested U-Net)
@@ -32,6 +33,7 @@ The foundational encoder-decoder architecture. It introduces "skip connections" 
 An evolution of U-Net, it features "nested and dense skip connections" (as shown below) to bridge the semantic gap between the encoder and decoder. This project implements the **deep supervision** (L1-L4) variant, as described in the original paper, which helps the model produce accurate segmentation maps at multiple resolutions.
 
 <!-- *(Ảnh kiến trúc UNet++ bạn đã cung cấp)* -->
+
 ![UNet++ Architecture](assets/unetpp_architecture.png)
 
 ---
@@ -53,7 +55,8 @@ The final performance was evaluated on the held-out 20% test set. UNet++ (with d
 
 The training curves below illustrate the convergence behavior of both models.
 
-*(Bạn hãy chụp ảnh màn hình biểu đồ "Model Loss History" và "Model IoU History" và lưu vào `assets/results_plot.png`)*
+<!-- *(Bạn hãy chụp ảnh màn hình biểu đồ "Model Loss History" và "Model IoU History" và lưu vào `assets/results_plot.png`)* -->
+
 ![Training History](assets/results_plot.png)
 
 ### Qualitative Comparison
