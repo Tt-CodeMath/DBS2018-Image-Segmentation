@@ -1,0 +1,27 @@
+# --- Rất quan trọng: Dữ liệu ---
+# Bỏ qua thư mục chứa data (vì quá nặng)
+data/
+*.zip
+
+# --- Rất quan trọng: Model đã huấn luyện ---
+# Bỏ qua các file model đã lưu (cũng rất nặng)
+*.pth
+*.pt
+
+# --- Cache của Python ---
+# Bỏ qua các file cache Python tự động tạo ra
+__pycache__/
+*.pyc
+
+# --- Cache của Jupyter Notebook ---
+# Bỏ qua thư mục checkpoints mà Jupyter tự tạo
+.ipynb_checkpoints/
+
+# --- Môi trường ảo (Nếu bạn dùng) ---
+venv/
+.venv/
+env/
+
+# --- File rác của Hệ điều hành ---
+.DS_Store
+Thumbs.db
